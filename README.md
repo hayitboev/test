@@ -1,6 +1,22 @@
-# PatTechs Solar Inspection
+# PATtechs Solar Panel Inspection
 
-A React-based web application for solar inspection management.
+A modern web application for solar panel inspection using AI and drone technology.
+
+## Features
+
+- AI-powered fault detection
+- Drone-based inspection
+- Real-time analysis
+- Detailed reporting
+- Multi-language support (Turkish/English)
+
+## Technologies Used
+
+- React
+- TypeScript
+- Tailwind CSS
+- Vite
+- i18next
 
 ## Prerequisites
 
@@ -41,18 +57,8 @@ npm run build
   - `App.tsx` - Main application component
   - `main.tsx` - Application entry point
 
-## Technologies Used
-
-- React 18
-- TypeScript
-- Vite
-- Tailwind CSS
-- React Router
-- ESLint
-
 ## Scripts
 
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
-- `npm run lint` - Run ESLint
-- `npm run preview` - Preview production build 
+- `
