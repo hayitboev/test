@@ -1,0 +1,134 @@
+{
+  "hero": {
+    "title": "Yapay Zeka Destekli Drone'larla Güneş Paneli Verimliliğini Artırın",
+    "subtitle": "Gelişmiş hata tespit teknolojimizle enerji üretimini maksimize edin, bakım maliyetlerini azaltın ve yatırım getirisini hızlandırın",
+    "exploreServices": "Hizmetleri Keşfet",
+    "requestQuote": "Teklif Al"
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "services": "Hizmetler",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "login": "Giriş Yap",
+    "register": "Kayıt Ol",
+    "benefits": "Faydalar",
+    "sectors": "Sektörler",
+    "subtitle": "Panel Arıza Tespiti"
+  },
+  "services": {
+    "title": "Hizmetlerimiz",
+    "subtitle": "Drone ve yapay zeka destekli kapsamlı güneş paneli inceleme ve hata tespit hizmetleri",
+    "technologyTitle": "Teknoloji Odaklı İnceleme",
+    "technologyDesc1": "PATtechs olarak, en son drone teknolojisini gelişmiş yapay zeka ile birleştirerek güneş paneli hatalarının tespiti ve çözümünde devrim yaratıyoruz.",
+    "technologyDesc2": "Entegre yaklaşımımız, kapsamlı kapsama, olağanüstü doğruluk ve güneş santralinizin performansını ve ömrünü maksimize etmenize yardımcı olan uygulanabilir içgörüler sağlar.",
+    "droneImageAlt": "Güneş panellerini inceleyen drone",
+    "advanced": "Gelişmiş",
+    "advancedDesc": "Maksimum verimlilik için en son teknoloji çözümler",
+    "ctaTitle": "Güneş Santralinizi Optimize Etmeye Hazır mısınız?",
+    "ctaDesc": "Bugün bizimle iletişime geçin ve enerji üretiminizi maksimize etmeye başlayın.",
+    "ctaButton": "Teklif Alın",
+    "droneInspection": "Drone İncelemesi",
+    "droneInspectionDesc": "En son teknoloji dronlarımız, operasyonları kesintiye uğratmadan güneş tesislerinin kapsamlı hava araştırmalarını gerçekleştirir ve çoklu açılardan yüksek çözünürlüklü görüntüler yakalar.",
+    "droneInspectionFeature1": "Minimum sürede büyük tesislerin tam kapsama alanı",
+    "droneInspectionFeature2": "Çoklu açılardan yüksek çözünürlüklü görüntüleme",
+    "droneInspectionFeature3": "Hassas ekipmanlar etrafında güvenli operasyon",
+    "droneInspectionFeature4": "Santral operasyonlarında minimum kesinti",
+    "visualAnalysis": "Görsel Analiz",
+    "visualAnalysisDesc": "Gelişmiş kamera sistemleri, performansı etkileyen fiziksel kusurları, çatlakları ve diğer görünür sorunları tespit ederek güneş panellerinin detaylı görüntülerini yakalar.",
+    "visualAnalysisFeature1": "Fiziksel panel hasarının tespiti",
+    "visualAnalysisFeature2": "Yüzey kusurlarının belirlenmesi",
+    "visualAnalysisFeature3": "Panel renk değişiminin analizi",
+    "visualAnalysisFeature4": "Montaj sistemi bütünlüğünün değerlendirilmesi",
+    "aiAnalysis": "Yapay Zeka Analizi",
+    "aiAnalysisDesc": "Özel yapay zeka algoritmalarımız, yakalanan verileri analiz ederek çeşitli panel hatalarını olağanüstü doğrulukla tanımlar, sınıflandırır ve önceliklendirir.",
+    "aiAnalysisFeature1": "Çoklu hata türlerinin otomatik tespiti",
+    "aiAnalysisFeature2": "Binlerce panel arasında desen tanıma",
+    "aiAnalysisFeature3": "Tespit edilen sorunların önem derecesine göre sınıflandırılması",
+    "aiAnalysisFeature4": "Sürekli öğrenme ve iyileştirme",
+    "detailedReporting": "Detaylı Raporlama",
+    "detailedReportingDesc": "Kapsamlı raporlar, uygulanabilir içgörüler, bakım önerileri ve performans optimizasyon stratejileri sunar.",
+    "detailedReportingFeature1": "Öncelikli bakım önerileri",
+    "detailedReportingFeature2": "Performans etki analizi",
+    "detailedReportingFeature3": "Onarımlar için maliyet-fayda analizi",
+    "detailedReportingFeature4": "Panel durumlarının geçmiş takibi",
+    "maintenancePlanning": "Bakım Planlaması",
+    "maintenancePlanningDesc": "Sistem performansını maksimize etmek için inceleme bulgularına dayalı bakım programları geliştirmenize ve uygulamanıza yardımcı oluyoruz.",
+    "maintenancePlanningFeature1": "Özelleştirilmiş bakım programları",
+    "maintenancePlanningFeature2": "Kaynak tahsisi optimizasyonu",
+    "maintenancePlanningFeature3": "Önleyici bakım planlaması",
+    "maintenancePlanningFeature4": "Performans iyileştirme takibi"
+  },
+  "process": {
+    "title": "Çalışma Sürecimiz",
+    "subtitle": "İnceleme planlamasından uygulanabilir bakım önerilerine",
+    "step1": "İlk Değerlendirme",
+    "step1Desc": "Güneş tesisinizi değerlendirir ve özelleştirilmiş bir inceleme planı oluştururuz",
+    "step1ImageAlt": "İlk değerlendirme toplantısı",
+    "step2": "Yüksek Çözünürlüklü Görüntüleme",
+    "step2Desc": "Dronlarımız her panelin çoklu açılardan detaylı görüntülerini yakalar",
+    "step2ImageAlt": "İnceleme planlaması",
+    "step3": "Yapay Zeka Analizi",
+    "step3Desc": "Gelişmiş algoritmalar panel hatalarını yüksek doğrulukla tespit eder ve sınıflandırır",
+    "step3ImageAlt": "Drone operasyonu",
+    "step4": "Detaylı Rapor",
+    "step4Desc": "Öncelikli bakım önerileriyle kapsamlı raporlar alın",
+    "step4ImageAlt": "Yapay zeka analizi"
+  },
+  "benefits": {
+    "title": "Avantajlarımız",
+    "efficiency": "Yüksek Verimlilik",
+    "efficiencyDesc": "Gelişmiş AI teknolojimizle güneş panellerinizin verimliliğini artırın",
+    "cost": "Maliyet Tasarrufu",
+    "costDesc": "Erken hata tespiti ile bakım maliyetlerini düşürün",
+    "safety": "Güvenli İnceleme",
+    "safetyDesc": "Drone teknolojisi ile güvenli ve hızlı inceleme",
+    "accuracy": "Yüksek Doğruluk",
+    "accuracyDesc": "Yapay zeka destekli hassas hata tespiti"
+  },
+  "contact": {
+    "title": "İletişime Geçin",
+    "subtitle": "Size nasıl yardımcı olabileceğimizi öğrenin",
+    "name": "Adınız",
+    "email": "E-posta",
+    "phone": "Telefon",
+    "message": "Mesajınız",
+    "send": "Gönder",
+    "success": "Mesajınız başarıyla gönderildi",
+    "error": "Bir hata oluştu. Lütfen tekrar deneyin"
+  },
+  "faultTypes": {
+    "title": "Tespit Ettiğimiz Hata Türleri",
+    "hotSpots": "Sıcak Noktalar",
+    "hotSpotsDesc": "Aşırı ısınan panel bölgeleri",
+    "cracks": "Çatlaklar",
+    "cracksDesc": "Panel yüzeyindeki fiziksel hasarlar",
+    "discoloration": "Renk Değişimi",
+    "discolorationDesc": "Panel yüzeyindeki renk bozulmaları",
+    "connectionIssues": "Bağlantı Sorunları",
+    "connectionIssuesDesc": "Panel bağlantılarında oluşan arızalar"
+  },
+  "testimonials": {
+    "title": "Müşteri Yorumları",
+    "readMore": "Devamını Oku",
+    "readLess": "Daha Az Göster"
+  },
+  "footer": {
+    "description": "Güneş paneli inceleme ve hata tespitinde lider teknoloji çözümleri",
+    "quickLinks": "Hızlı Bağlantılar",
+    "services": "Hizmetler",
+    "contactUs": "Bize Ulaşın",
+    "rights": "Tüm hakları saklıdır"
+  },
+  "about": {
+    "title": "Hakkımızda",
+    "mission": {
+      "title": "Misyon",
+      "content": "Genç ve dinamik bir ekip olarak, drone yazılım teknolojilerinde yenilikçi ve güvenilir çözümler üretiyoruz. Otonom uçuş sistemleri ve veri işleme yazılımlarımızla, tarım, çevre yönetimi, endüstri ve güvenlik gibi kritik alanlarda daha verimli ve sürdürülebilir çalışmalar yapılmasına katkı sağlıyoruz.\n\nEkip içinde bilgi paylaşımını ve sürekli gelişimi temel alıyoruz. Deneyimli mühendislerimiz, genç ekip üyelerimize rehberlik ederek onların teknik ve profesyonel gelişimlerine destek oluyor. Bu sinerji sayesinde, her geçen gün daha güçlü, daha yaratıcı ve daha etkili teknolojiler üretiyor; yapay zeka, makine öğrenimi ve yazılım mühendisliği gibi alanlarda edindiğimiz bilgi birikimini projelerimize yansıtıyoruz."
+    },
+    "vision": {
+      "title": "Vizyon",
+      "content": "Drone yazılım teknolojilerinde, küresel ölçekte güvenilir, yenilikçi ve sürdürülebilir çözümler sunan lider bir teknoloji şirketi olmak.\n\nGenç mühendislerden oluşan enerjik ekibimizle, sürekli öğrenme ve gelişim kültürünü koruyarak, sektördeki en güncel teknolojilere hızlı uyum sağlıyoruz. Geliştirdiğimiz yazılımlar, yalnızca bugünün ihtiyaçlarını karşılamakla kalmayacak, aynı zamanda geleceğin zorluklarına da akıllı çözümler sunacak şekilde tasarlanıyor.\n\nAmacımız, çevreye duyarlı, kullanıcı odaklı ve yüksek teknolojiye dayalı projeler geliştirerek, hem sektörümüze hem de toplumumuza değer katmak. Genç mühendislerimizin dinamizmi ve yenilikçi bakış açısıyla, dünya çapında teknoloji alanında söz sahibi bir marka olmayı hedefliyoruz."
+    }
+  }
+} 

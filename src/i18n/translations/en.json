@@ -1,0 +1,88 @@
+{
+  "hero": {
+    "title": "Elevate Solar Panel Efficiency with AI-Powered Drones",
+    "subtitle": "Maximize energy production, reduce maintenance costs, and accelerate ROI with our advanced fault detection technology",
+    "exploreServices": "Explore Services",
+    "requestQuote": "Request a Quote"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "benefits": "Benefits",
+    "sectors": "Sectors",
+    "contact": "Contact",
+    "login": "Login",
+    "register": "Register",
+    "subtitle": "Solar Panel Inspection"
+  },
+  "benefits": {
+    "title": "Our Benefits",
+    "efficiency": "High Efficiency",
+    "efficiencyDesc": "Increase your solar panel efficiency with our advanced AI technology",
+    "cost": "Cost Savings",
+    "costDesc": "Reduce maintenance costs through early fault detection",
+    "safety": "Safe Inspection",
+    "safetyDesc": "Safe and fast inspection with drone technology",
+    "accuracy": "High Accuracy",
+    "accuracyDesc": "AI-powered precise fault detection"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Learn how we can help you",
+    "name": "Your Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Your Message",
+    "send": "Send",
+    "success": "Your message has been sent successfully",
+    "error": "An error occurred. Please try again"
+  },
+  "process": {
+    "title": "Our Process",
+    "step1": "Inspection Planning",
+    "step1Desc": "Drone flight plan and inspection area determination",
+    "step2": "Data Collection",
+    "step2Desc": "High-resolution thermal and visual data collection",
+    "step3": "AI Analysis",
+    "step3Desc": "Fault detection and analysis with artificial intelligence",
+    "step4": "Reporting",
+    "step4Desc": "Detailed report and recommendations presentation"
+  },
+  "faultTypes": {
+    "title": "Fault Types We Detect",
+    "hotSpots": "Hot Spots",
+    "hotSpotsDesc": "Overheating panel areas",
+    "cracks": "Cracks",
+    "cracksDesc": "Physical damage on panel surface",
+    "discoloration": "Discoloration",
+    "discolorationDesc": "Color degradation on panel surface",
+    "connectionIssues": "Connection Issues",
+    "connectionIssuesDesc": "Faults in panel connections"
+  },
+  "testimonials": {
+    "title": "Customer Reviews",
+    "readMore": "Read More",
+    "readLess": "Show Less"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "contact": "Contact",
+    "social": "Social Media",
+    "newsletter": "Subscribe to Our Newsletter",
+    "subscribe": "Subscribe"
+  },
+  "about": {
+    "title": "About Us",
+    "mission": {
+      "title": "Mission",
+      "content": "As a young and dynamic team, we produce innovative and reliable solutions in drone software technologies. With our autonomous flight systems and data processing software, we contribute to more efficient and sustainable operations in critical areas such as agriculture, environmental management, industry, and security.\n\nWe base our work on knowledge sharing and continuous development within the team. Our experienced engineers guide young team members, supporting their technical and professional development. Through this synergy, we produce stronger, more creative, and more effective technologies every day, reflecting our accumulated knowledge in areas such as artificial intelligence, machine learning, and software engineering in our projects."
+    },
+    "vision": {
+      "title": "Vision",
+      "content": "To be a leading technology company offering reliable, innovative, and sustainable solutions in drone software technologies on a global scale.\n\nWith our energetic team of young engineers, we quickly adapt to the latest technologies in the industry while maintaining a culture of continuous learning and development. Our developed software is designed not only to meet today's needs but also to provide intelligent solutions to future challenges.\n\nOur goal is to add value to both our industry and society by developing environmentally conscious, user-focused, and high-tech projects. With the dynamism and innovative perspective of our young engineers, we aim to become a globally recognized brand in the technology sector."
+    }
+  }
+} 
