@@ -13,7 +13,6 @@
     "login": "Giriş Yap",
     "register": "Kayıt Ol",
     "benefits": "Faydalar",
-    "sectors": "Sektörler",
     "subtitle": "Panel Arıza Tespiti"
   },
   "services": {
@@ -76,15 +75,81 @@
     "step4ImageAlt": "Yapay zeka analizi"
   },
   "benefits": {
-    "title": "Avantajlarımız",
-    "efficiency": "Yüksek Verimlilik",
-    "efficiencyDesc": "Gelişmiş AI teknolojimizle güneş panellerinizin verimliliğini artırın",
-    "cost": "Maliyet Tasarrufu",
-    "costDesc": "Erken hata tespiti ile bakım maliyetlerini düşürün",
-    "safety": "Güvenli İnceleme",
-    "safetyDesc": "Drone teknolojisi ile güvenli ve hızlı inceleme",
-    "accuracy": "Yüksek Doğruluk",
-    "accuracyDesc": "Yapay zeka destekli hassas hata tespiti"
+    "title": "Faydalar ve Avantajlar",
+    "subtitle": "Drone ve yapay zeka destekli denetim hizmetlerimizin geleneksel yöntemlerden nasıl üstün olduğunu ve olağanüstü yatırım getirisi sağladığını keşfedin.",
+    "approachTitle": "Dönüştürücü Yaklaşım",
+    "approachDesc1": "Geleneksel güneş paneli denetim yöntemleri zaman alıcı, emek yoğun ve genellikle enerji üretimini etkileyen kritik sorunları kaçırıyor. Teknoloji odaklı yaklaşımımız, bu süreci daha hızlı, daha doğru ve daha uygun maliyetli denetimlerle devrimleştiriyor.",
+    "approachDesc2": "Gelişmiş drone teknolojisini sofistike yapay zeka analizi ile birleştirerek, aksi takdirde önemli enerji kayıplarına veya felaket niteliğindeki arızalara neden olana kadar tespit edilemeyecek sorunları belirliyoruz.",
+    "imageAlt": "Drone ile güneş paneli denetimi",
+    "comparisonTitle": "Geleneksel Yöntemlerle Karşılaştırma",
+    "feature": "Özellik/Kabiliyet",
+    "ourSolution": "PATtechs Drone & Yapay Zeka Denetimi",
+    "traditionalMethod": "Geleneksel Manuel Denetim",
+    "inspectionSpeed": "Denetim Hızı",
+    "speedOur": "50MW santral için 1-2 gün",
+    "speedOurDesc": "Büyük alanların hızlı drone kapsaması",
+    "speedTraditional": "50MW santral için 7-14 gün",
+    "speedTraditionalDesc": "Yavaş manuel panel-panel denetim",
+    "detectionAccuracy": "Tespit Doğruluğu",
+    "accuracyOur": "%99.7'ye kadar arıza tespiti",
+    "accuracyOurDesc": "Milyonlarca panel görüntüsü üzerinde eğitilmiş yapay zeka algoritmaları",
+    "accuracyTraditional": "%60-80 arıza tespiti",
+    "accuracyTraditionalDesc": "İnsan gözüyle görülemeyen sorunları tespit ederek %99.7'ye kadar doğrulukla arızaları belirler.",
+    "microcrackDetection": "Mikroçatlak Tespiti",
+    "hotspotDetection": "Erken Aşama Sıcak Nokta Tespiti",
+    "safetyRisk": "Personel Güvenlik Riski",
+    "safetyOur": "Minimal",
+    "safetyOurDesc": "Tehlikeli alanlara erişim gerekmez",
+    "safetyTraditional": "Yüksek",
+    "safetyTraditionalDesc": "Çatılarda veya elektrikli alanlarda çalışan işçiler",
+    "dataCollection": "Veri Toplama",
+    "dataOur": "Kapsamlı",
+    "dataOurDesc": "Tüm panellerin RGB + termal görüntüleri",
+    "dataTraditional": "Sınırlı",
+    "dataTraditionalDesc": "Nokta kontrolleri ve seçici örnekleme",
+    "reportDetail": "Rapor Detayı",
+    "reportOur": "Kesin panel seviyesi konum",
+    "reportOurDesc": "Şiddet derecelendirmeleri ile tam arıza pozisyonları",
+    "reportTraditional": "Genel alan notları",
+    "reportTraditionalDesc": "Görsel gözleme dayalı yaklaşımlar",
+    "costPerMW": "MW Başına Maliyet",
+    "costOur": "Daha Düşük",
+    "costOurDesc": "Verimli teknoloji odaklı süreç",
+    "costTraditional": "Daha Yüksek",
+    "costTraditionalDesc": "Emek yoğun süreç",
+    "energyProduction": "Enerji Üretimi Etkisi",
+    "energyOur": "%5-12 iyileştirme",
+    "energyOurDesc": "Erken arıza tespiti ve onarımı ile",
+    "energyTraditional": "%1-3 iyileştirme",
+    "energyTraditionalDesc": "Tespit kabiliyetleri ile sınırlı",
+    "keyBenefitsTitle": "Temel Faydalar",
+    "keyBenefitsSubtitle": "Teknolojimiz birden fazla boyutta önemli avantajlar sunar",
+    "timeEfficiency": "Zaman Verimliliği",
+    "timeEfficiencyDesc": "Geleneksel yöntemlere kıyasla denetim süresini %80'e kadar azaltın. Dronlarımız, manuel denetimler için gereken sürenin bir kısmında büyük kurulumları tarayabilir.",
+    "timeEfficiencyMetric": "Tipik denetim süresi: 50MW için 1-2 gün",
+    "accuracy": "Üstün Doğruluk",
+    "accuracyDesc": "Yapay zeka teknolojimiz, mikroçatlaklar ve erken aşama sıcak noktalar dahil olmak üzere insan gözüyle görülemeyen sorunları tespit ederek %99.7'ye kadar doğrulukla arızaları belirler.",
+    "accuracyMetric": "Milyonlarca panel görüntüsü üzerinde eğitilmiş yapay zeka",
+    "safety": "Gelişmiş Güvenlik",
+    "safetyDesc": "Personelin potansiyel olarak tehlikeli alanlara erişmesini veya yüksekte çalışmasını ortadan kaldırın. Dronlarımız insan riski olmadan tüm kurulumu güvenle gezinir.",
+    "safetyMetric": "Tehlikeli alanlarda sıfır personel",
+    "costEffectiveness": "Maliyet Etkinliği",
+    "costEffectivenessDesc": "Denetimlerimiz, büyük arızaları önleyerek, bakım maliyetlerini düşürerek ve erken müdahale ile enerji üretimini artırarak güçlü bir yatırım getirisi sağlar.",
+    "costEffectivenessMetric": "Tipik geri ödeme süresi: 3-6 ay",
+    "energyProductionBoost": "Enerji Üretimi Artışı",
+    "energyProductionBoostDesc": "Müşteriler genellikle denetimimizle belirlenen sorunları ele aldıktan ve önerilerimizi uyguladıktan sonra enerji üretiminde %5-12 iyileştirme görür.",
+    "energyProductionBoostMetric": "Ortalama iyileştirme: %8.3",
+    "reporting": "Aksiyon Alınabilir Raporlama",
+    "reportingDesc": "Kaynaklarınızı optimize etmek için kesin arıza konumları, şiddet sınıflandırmaları ve öncelikli bakım önerileri içeren detaylı raporlar alın.",
+    "reportingMetric": "Kesin koordinatlarla interaktif dijital raporlar",
+    "successStoryTitle": "Müşteri Başarı Hikayesi",
+    "successStory": "PATtechs'ın tek bir denetimden elde edilen önerilerini uyguladıktan sonra, ilk ay içinde enerji üretimimizde %9.2 artış gördük. Yatırım getirisi anında oldu ve detaylı arıza haritalaması, bakım ekibimizin iş akışını optimize etmemizi sağladı.",
+    "successStoryAuthor": "- Michael Chen, GreenField Energy Teknik Direktörü (25MW Güneş Santrali)",
+    "successStoryImageAlt": "Güneş santrali",
+    "ctaButton": "Benzer Sonuçlar Alın",
+    "readyTitle": "Bu Faydaları Deneyimlemeye Hazır mısınız?",
+    "readyDesc": "Drone ve yapay zeka denetim hizmetlerimizin güneş enerjisi santralinizin performansını nasıl dönüştürebileceğini tartışmak için bugün bizimle iletişime geçin.",
+    "contactButton": "Danışma Talep Edin"
   },
   "contact": {
     "title": "İletişime Geçin",
@@ -118,7 +183,12 @@
     "quickLinks": "Hızlı Bağlantılar",
     "services": "Hizmetler",
     "contactUs": "Bize Ulaşın",
-    "rights": "Tüm hakları saklıdır"
+    "rights": "Tüm hakları saklıdır",
+    "address": "123 Solar Sokak, Yenilenebilir Şehir, RC 12345",
+    "phone": "+90 546 783 59 31",
+    "contact": "Contact",  
+    "email": "info@pattechs.com",
+    "followUs": "Bizi Takip Edin"
   },
   "about": {
     "title": "Hakkımızda",
@@ -129,6 +199,37 @@
     "vision": {
       "title": "Vizyon",
       "content": "Drone yazılım teknolojilerinde, küresel ölçekte güvenilir, yenilikçi ve sürdürülebilir çözümler sunan lider bir teknoloji şirketi olmak.\n\nGenç mühendislerden oluşan enerjik ekibimizle, sürekli öğrenme ve gelişim kültürünü koruyarak, sektördeki en güncel teknolojilere hızlı uyum sağlıyoruz. Geliştirdiğimiz yazılımlar, yalnızca bugünün ihtiyaçlarını karşılamakla kalmayacak, aynı zamanda geleceğin zorluklarına da akıllı çözümler sunacak şekilde tasarlanıyor.\n\nAmacımız, çevreye duyarlı, kullanıcı odaklı ve yüksek teknolojiye dayalı projeler geliştirerek, hem sektörümüze hem de toplumumuza değer katmak. Genç mühendislerimizin dinamizmi ve yenilikçi bakış açısıyla, dünya çapında teknoloji alanında söz sahibi bir marka olmayı hedefliyoruz."
+    }
+  },
+  "contactPage": {
+    "title": "İletişime Geçin",
+    "subtitle": "Drone ve yapay zeka denetim hizmetlerimizin güneş enerjisi santralinizin performansını nasıl optimize edebileceğini tartışmak için bizimle iletişime geçin.",
+    "faq": {
+      "title": "Sıkça Sorulan Sorular",
+      "inspectionDuration": {
+        "question": "Tipik bir denetim ne kadar sürer?",
+        "answer": "Süre, kurulumunuzun boyutuna bağlıdır. 10MW'lık bir santral genellikle veri toplama için 1 gün gerektirir, analiz ve raporlama 3-5 iş günü içinde tamamlanır."
+      },
+      "shutdown": {
+        "question": "Denetim sırasında santrali kapatmamız gerekiyor mu?",
+        "answer": "Hayır, drone denetimlerimiz santraliniz tamamen çalışır durumdayken gerçekleştirilebilir, üretim kesintisine neden olmaz."
+      },
+      "faultTypes": {
+        "question": "Teknolojiniz hangi tür arızaları tespit edebilir?",
+        "answer": "Sistemimiz sıcak noktaları, mikroçatlakları, kirlenmeyi, bypass diyot arızalarını, hücre bozulmasını, PID'yi (potansiyel indüklenmiş bozulma), delaminasyonu ve çeşitli bağlantı sorunlarını tespit edebilir."
+      },
+      "accuracy": {
+        "question": "Arıza tespitiniz ne kadar doğru?",
+        "answer": "Yapay zeka algoritmalarımız, geleneksel manuel denetim yöntemlerinden önemli ölçüde daha iyi performans göstererek %99.7'ye kadar doğrulukla arıza tespiti yapar."
+      },
+      "reports": {
+        "question": "Raporlarınızda hangi bilgiler yer alıyor?",
+        "answer": "Kapsamlı raporlarımız, kesin arıza konumlarını, tür ve şiddet sınıflandırmasını, termal ve görsel görüntü kanıtlarını, performans etki tahminlerini ve öncelikli bakım önerilerini içerir."
+      },
+      "frequency": {
+        "question": "Denetimleri ne sıklıkla planlamalıyız?",
+        "answer": "Optimal performans izleme için üç aylık denetimler öneriyoruz, ancak birçok müşteri minimum olarak yılda iki kez (ilkbahar ve sonbahar) denetim seçeneğini tercih ediyor. Kurulumunuzun özelliklerine ve çevresel koşullara bağlı olarak özel öneriler sunulabilir."
+      }
     }
   }
 } 

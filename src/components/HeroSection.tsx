@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import { ArrowRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const HeroSection: React.FC = () => {

@@ -1,82 +1,72 @@
 import { useTranslation } from 'react-i18next';
-import { Zap, DollarSign, Shield, Target } from 'lucide-react';
+import { motion } from 'framer-motion';
 
 const BenefitsSection = () => {
   const { t } = useTranslation();
 
+  const benefits = [
+    {
+      id: 1,
+      title: t('benefits.timeEfficiency'),
+      description: t('benefits.timeEfficiencyDesc'),
+      metric: t('benefits.timeEfficiencyMetric'),
+      icon: '⏱️',
+    },
+    {
+      id: 2,
+      title: t('benefits.accuracy'),
+      description: t('benefits.accuracyDesc'),
+      metric: t('benefits.accuracyMetric'),
+      icon: '🎯',
+    },
+    {
+      id: 3,
+      title: t('benefits.safety'),
+      description: t('benefits.safetyDesc'),
+      metric: t('benefits.safetyMetric'),
+      icon: '🛡️',
+    },
+    {
+      id: 4,
+      title: t('benefits.costEffectiveness'),
+      description: t('benefits.costEffectivenessDesc'),
+      metric: t('benefits.costEffectivenessMetric'),
+      icon: '💰',
+    },
+  ];
+
   return (
     <section className="py-20 bg-gray-50">
-      <div className="container mx-auto px-4 py-16">
-        <h2 
-          className="text-3xl font-bold text-center mb-12"
-          data-aos="fade-up"
-        >
-          {t('benefits.title')}
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <div 
-            className="bg-white p-6 rounded-lg shadow-md"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
-            <div className="flex items-center mb-4">
-              <div className="bg-blue-100 p-3 rounded-full">
-                <Zap className="h-6 w-6 text-blue-600" />
-              </div>
-              <h3 className="text-xl font-semibold ml-4">{t('benefits.efficiency')}</h3>
-            </div>
-            <p className="text-gray-600">
-              {t('benefits.efficiencyDesc')}
-            </p>
-          </div>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center">
+          <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">
+            {t('benefits.title')}
+          </h2>
+          <p className="mt-4 text-lg text-gray-600">
+            {t('benefits.subtitle')}
+          </p>
+        </div>
 
-          <div 
-            className="bg-white p-6 rounded-lg shadow-md"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
-            <div className="flex items-center mb-4">
-              <div className="bg-blue-100 p-3 rounded-full">
-                <DollarSign className="h-6 w-6 text-blue-600" />
-              </div>
-              <h3 className="text-xl font-semibold ml-4">{t('benefits.cost')}</h3>
-            </div>
-            <p className="text-gray-600">
-              {t('benefits.costDesc')}
-            </p>
-          </div>
-
-          <div 
-            className="bg-white p-6 rounded-lg shadow-md"
-            data-aos="fade-up"
-            data-aos-delay="300"
-          >
-            <div className="flex items-center mb-4">
-              <div className="bg-blue-100 p-3 rounded-full">
-                <Shield className="h-6 w-6 text-blue-600" />
-              </div>
-              <h3 className="text-xl font-semibold ml-4">{t('benefits.safety')}</h3>
-            </div>
-            <p className="text-gray-600">
-              {t('benefits.safetyDesc')}
-            </p>
-          </div>
-
-          <div 
-            className="bg-white p-6 rounded-lg shadow-md"
-            data-aos="fade-up"
-            data-aos-delay="400"
-          >
-            <div className="flex items-center mb-4">
-              <div className="bg-blue-100 p-3 rounded-full">
-                <Target className="h-6 w-6 text-blue-600" />
-              </div>
-              <h3 className="text-xl font-semibold ml-4">{t('benefits.accuracy')}</h3>
-            </div>
-            <p className="text-gray-600">
-              {t('benefits.accuracyDesc')}
-            </p>
-          </div>
+        <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+          {benefits.map((benefit) => (
+            <motion.div
+              key={benefit.id}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+              className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow"
+            >
+              <div className="text-4xl mb-4">{benefit.icon}</div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                {benefit.title}
+              </h3>
+              <p className="text-gray-600 mb-4">{benefit.description}</p>
+              <p className="text-sm font-medium text-blue-600">
+                {benefit.metric}
+              </p>
+            </motion.div>
+          ))}
         </div>
       </div>
     </section>

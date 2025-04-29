@@ -1,8 +1,9 @@
 import { useState, useEffect } from 'react';
 import { NavLink, Link } from 'react-router-dom';
-import { Menu, X, Globe } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import logo from '../assets/logo.png';
+import { motion } from 'framer-motion';
+import { FaBars, FaTimes, FaGlobe } from 'react-icons/fa';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,7 +37,9 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <header 
+    <motion.header
+      initial={{ y: -100 }}
+      animate={{ y: 0 }}
       className={`fixed w-full z-50 transition-all duration-300 ${
         scrolled ? 'bg-white/95 shadow-lg backdrop-blur-sm' : 'bg-transparent'
       }`}
@@ -108,18 +111,6 @@ const Navbar: React.FC = () => {
             >
               {t('nav.benefits')}
             </NavLink>
-            <NavLink 
-              to="/sectors" 
-              className={({ isActive }) => 
-                `px-4 py-2 rounded-md font-medium transition-all ${
-                  isActive 
-                    ? 'text-blue-600 bg-blue-50' 
-                    : 'text-gray-700 hover:text-blue-600 hover:bg-blue-50'
-                }`
-              }
-            >
-              {t('nav.sectors')}
-            </NavLink>
           </nav>
 
           <div className="hidden lg:flex items-center space-x-4">
@@ -127,7 +118,7 @@ const Navbar: React.FC = () => {
               onClick={toggleLanguage}
               className="flex items-center space-x-2 text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md hover:bg-blue-50 transition-all"
             >
-              <Globe className="h-5 w-5" />
+              <FaGlobe className="h-5 w-5" />
               <span className="font-medium">{i18n.language === 'tr' ? 'EN' : 'TR'}</span>
             </button>
             <Link 
@@ -143,16 +134,21 @@ const Navbar: React.FC = () => {
             onClick={toggleMenu}
           >
             {isOpen ? (
-              <X className="h-6 w-6" />
+              <FaTimes className="h-6 w-6" />
             ) : (
-              <Menu className="h-6 w-6" />
+              <FaBars className="h-6 w-6" />
             )}
           </button>
         </div>
       </div>
 
       {isOpen && (
-        <div className="lg:hidden bg-white border-t border-gray-100">
+        <motion.div
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -20 }}
+          className="lg:hidden bg-white border-t border-gray-100"
+        >
           <div className="container mx-auto px-6 py-4 space-y-1">
             <NavLink 
               to="/" 
@@ -206,25 +202,15 @@ const Navbar: React.FC = () => {
             >
               {t('nav.benefits')}
             </NavLink>
-            <NavLink 
-              to="/sectors" 
-              className={({ isActive }) => 
-                `block px-4 py-3 rounded-md font-medium transition-all ${
-                  isActive 
-                    ? 'text-blue-600 bg-blue-50' 
-                    : 'text-gray-700 hover:text-blue-600 hover:bg-blue-50'
-                }`
-              }
-              onClick={closeMenu}
-            >
-              {t('nav.sectors')}
-            </NavLink>
             <div className="pt-4 border-t border-gray-100">
               <button
-                onClick={toggleLanguage}
+                onClick={() => {
+                  toggleLanguage();
+                  closeMenu();
+                }}
                 className="w-full flex items-center space-x-2 text-gray-700 hover:text-blue-600 px-4 py-3 rounded-md hover:bg-blue-50 transition-all"
               >
-                <Globe className="h-5 w-5" />
+                <FaGlobe className="h-5 w-5" />
                 <span className="font-medium">{i18n.language === 'tr' ? 'EN' : 'TR'}</span>
               </button>
               <Link 
@@ -236,9 +222,9 @@ const Navbar: React.FC = () => {
               </Link>
             </div>
           </div>
-        </div>
+        </motion.div>
       )}
-    </header>
+    </motion.header>
   );
 };
 

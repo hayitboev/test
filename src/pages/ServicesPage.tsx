@@ -1,13 +1,18 @@
 import { type FC } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Bone as Drone, Camera, BrainCircuit, FileText, Wrench } from 'lucide-react';
+import { Camera, BrainCircuit, FileText, Wrench, Plane } from 'lucide-react';
+import droneInspection from '../assets/drone-inspection.jpg';
+import step1 from '../assets/step1.jpg';
+import step2 from '../assets/step2.jpg';
+import step3 from '../assets/step3.jpg';
+import step4 from '../assets/step4.jpg';
 
 const ServicesPage: FC = () => {
   const { t } = useTranslation();
 
   const services = [
     {
-      icon: <Drone className="h-10 w-10 text-blue-600" />,
+      icon: <Plane className="h-10 w-10 text-blue-600" />,
       title: t('services.droneInspection'),
       description: t('services.droneInspectionDesc'),
       features: [
@@ -88,7 +93,7 @@ const ServicesPage: FC = () => {
             </div>
             <div>
               <img 
-                src="https://images.pexels.com/photos/442151/pexels-photo-442151.jpeg" 
+                src={droneInspection} 
                 alt={t('services.droneImageAlt')} 
                 className="rounded-lg shadow-xl w-full h-auto object-cover"
               />
@@ -164,7 +169,7 @@ const ServicesPage: FC = () => {
                   </div>
                   <div className="md:w-1/2 md:pl-12">
                     <img 
-                      src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg" 
+                      src={step1} 
                       alt={t('process.step1ImageAlt')} 
                       className="rounded-lg shadow-md w-full h-auto"
                       style={{ maxHeight: '150px', objectFit: 'cover' }}
@@ -177,7 +182,7 @@ const ServicesPage: FC = () => {
                 <div className="flex flex-col md:flex-row items-center">
                   <div className="md:w-1/2 md:pr-12 md:text-right order-1 md:order-1">
                     <img 
-                      src="https://images.pexels.com/photos/8294606/pexels-photo-8294606.jpeg" 
+                      src={step2} 
                       alt={t('process.step2ImageAlt')} 
                       className="rounded-lg shadow-md w-full h-auto"
                       style={{ maxHeight: '150px', objectFit: 'cover' }}
@@ -208,7 +213,7 @@ const ServicesPage: FC = () => {
                   </div>
                   <div className="md:w-1/2 md:pl-12">
                     <img 
-                      src="https://images.pexels.com/photos/2050718/pexels-photo-2050718.jpeg" 
+                      src={step3} 
                       alt={t('process.step3ImageAlt')} 
                       className="rounded-lg shadow-md w-full h-auto"
                       style={{ maxHeight: '150px', objectFit: 'cover' }}
@@ -221,7 +226,7 @@ const ServicesPage: FC = () => {
                 <div className="flex flex-col md:flex-row items-center">
                   <div className="md:w-1/2 md:pr-12 md:text-right order-1 md:order-1">
                     <img 
-                      src="https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg" 
+                      src={step4} 
                       alt={t('process.step4ImageAlt')} 
                       className="rounded-lg shadow-md w-full h-auto"
                       style={{ maxHeight: '150px', objectFit: 'cover' }}

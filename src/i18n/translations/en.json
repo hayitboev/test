@@ -10,22 +10,87 @@
     "about": "About",
     "services": "Services",
     "benefits": "Benefits",
-    "sectors": "Sectors",
     "contact": "Contact",
     "login": "Login",
     "register": "Register",
     "subtitle": "Solar Panel Inspection"
   },
-  "benefits": {
-    "title": "Our Benefits",
-    "efficiency": "High Efficiency",
-    "efficiencyDesc": "Increase your solar panel efficiency with our advanced AI technology",
-    "cost": "Cost Savings",
-    "costDesc": "Reduce maintenance costs through early fault detection",
-    "safety": "Safe Inspection",
-    "safetyDesc": "Safe and fast inspection with drone technology",
-    "accuracy": "High Accuracy",
-    "accuracyDesc": "AI-powered precise fault detection"
+ "benefits": {
+    "title": "Benefits & Advantages",
+    "subtitle": "Discover how our drone and AI-powered inspection services outperform traditional methods and deliver exceptional ROI.",
+    "approachTitle": "A Transformative Approach",
+    "approachDesc1": "Traditional solar panel inspection methods are time-consuming, labor-intensive, and often miss critical issues that impact energy production. Our technology-driven approach revolutionizes this process with faster, more accurate, and more cost-effective inspections.",
+    "approachDesc2": "By combining advanced drone technology with sophisticated AI analysis, we identify problems that would otherwise go undetected until they cause significant energy losses or catastrophic failures.",
+    "imageAlt": "Drone inspecting solar panels",
+    "comparisonTitle": "Comparison with Traditional Methods",
+    "feature": "Feature/Capability",
+    "ourSolution": "PATtechs Drone & AI Inspection",
+    "traditionalMethod": "Traditional Manual Inspection",
+    "inspectionSpeed": "Inspection Speed",
+    "speedOur": "1-2 days for 50MW plant",
+    "speedOurDesc": "Rapid drone coverage of large areas",
+    "speedTraditional": "7-14 days for 50MW plant",
+    "speedTraditionalDesc": "Slow manual panel-by-panel inspection",
+    "detectionAccuracy": "Detection Accuracy",
+    "accuracyOur": "Up to 99.7% fault detection",
+    "accuracyOurDesc": "AI algorithms trained on millions of panel images",
+    "accuracyTraditional": "60-80% fault detection",
+    "accuracyTraditionalDesc": "Limited by human vision and fatigue",
+    "microcrackDetection": "Microcrack Detection",
+    "hotspotDetection": "Early-Stage Hotspot Detection",
+    "safetyRisk": "Personnel Safety Risk",
+    "safetyOur": "Minimal",
+    "safetyOurDesc": "No need to access hazardous areas",
+    "safetyTraditional": "High",
+    "safetyTraditionalDesc": "Workers on rooftops or in electrical areas",
+    "dataCollection": "Data Collection",
+    "dataOur": "Comprehensive",
+    "dataOurDesc": "RGB + thermal imagery of all panels",
+    "dataTraditional": "Limited",
+    "dataTraditionalDesc": "Spot checks and selective sampling",
+    "reportDetail": "Report Detail",
+    "reportOur": "Precise panel-level location",
+    "reportOurDesc": "Exact fault positions with severity ratings",
+    "reportTraditional": "General area notes",
+    "reportTraditionalDesc": "Approximations based on visual observation",
+    "costPerMW": "Cost per MW",
+    "costOur": "Lower",
+    "costOurDesc": "Efficient technology-driven process",
+    "costTraditional": "Higher",
+    "costTraditionalDesc": "Labor-intensive process",
+    "energyProduction": "Energy Production Impact",
+    "energyOur": "5-12% improvement",
+    "energyOurDesc": "Through early fault detection and repair",
+    "energyTraditional": "1-3% improvement",
+    "energyTraditionalDesc": "Limited by detection capabilities",
+    "keyBenefitsTitle": "Key Benefits",
+    "keyBenefitsSubtitle": "Our technology delivers significant advantages across multiple dimensions",
+    "timeEfficiency": "Time Efficiency",
+    "timeEfficiencyDesc": "Reduce inspection time by up to 80% compared to traditional methods. Our drones can scan large installations in a fraction of the time required for manual inspections.",
+    "timeEfficiencyMetric": "Typical inspection time: 1-2 days for 50MW",
+    "accuracy": "Superior Accuracy",
+    "accuracyDesc": "Our AI technology identifies faults with up to 99.7% accuracy, detecting issues that are invisible to the human eye, including microcracks and early-stage hotspots.",
+    "accuracyMetric": "AI trained on millions of panel images",
+    "safety": "Enhanced Safety",
+    "safetyDesc": "Eliminate the need for personnel to access potentially hazardous areas or work at heights. Our drones safely navigate the entire installation without human risk.",
+    "safetyMetric": "Zero personnel in hazardous areas",
+    "costEffectiveness": "Cost-Effectiveness",
+    "costEffectivenessDesc": "Our inspections deliver a strong ROI by preventing major failures, reducing maintenance costs, and increasing energy production through early intervention.",
+    "costEffectivenessMetric": "Typical ROI period: 3-6 months",
+    "energyProductionBoost": "Energy Production Boost",
+    "energyProductionBoostDesc": "Customers typically see a 5-12% improvement in energy production after addressing the issues identified by our inspection and implementing our recommendations.",
+    "energyProductionBoostMetric": "Average improvement: 8.3%",
+    "reporting": "Actionable Reporting",
+    "reportingDesc": "Receive detailed reports with precise fault locations, severity classifications, and prioritized maintenance recommendations to optimize your resources.",
+    "reportingMetric": "Interactive digital reports with exact coordinates",
+    "successStoryTitle": "Customer Success Story",
+    "successStory": "After implementing PATtechs' recommendations from a single inspection, we saw our energy production increase by 9.2% within the first month. The ROI was immediate, and the detailed fault mapping allowed us to optimize our maintenance team's workflow.",
+    "successStoryAuthor": "- Michael Chen, Technical Director at GreenField Energy (25MW Solar Farm)",
+    "successStoryImageAlt": "Solar farm",
+    "ctaButton": "Get Similar Results",
+    "readyTitle": "Ready to Experience These Benefits?",
+    "readyDesc": "Contact us today to discuss how our drone and AI inspection services can transform your solar power plant's performance.",
+    "contactButton": "Request a Consultation"
   },
   "contact": {
     "title": "Contact Us",
@@ -72,7 +137,11 @@
     "contact": "Contact",
     "social": "Social Media",
     "newsletter": "Subscribe to Our Newsletter",
-    "subscribe": "Subscribe"
+    "subscribe": "Subscribe",
+    "address": "123 Solar Street, Renewable City, RC 12345",
+    "phone": "+90 546 783 59 31",
+    "email": "info@pattechs.com",
+    "followUs": "Follow Us"
   },
   "about": {
     "title": "About Us",
@@ -83,6 +152,37 @@
     "vision": {
       "title": "Vision",
       "content": "To be a leading technology company offering reliable, innovative, and sustainable solutions in drone software technologies on a global scale.\n\nWith our energetic team of young engineers, we quickly adapt to the latest technologies in the industry while maintaining a culture of continuous learning and development. Our developed software is designed not only to meet today's needs but also to provide intelligent solutions to future challenges.\n\nOur goal is to add value to both our industry and society by developing environmentally conscious, user-focused, and high-tech projects. With the dynamism and innovative perspective of our young engineers, we aim to become a globally recognized brand in the technology sector."
+    }
+  },
+  "contactPage": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch to discuss how our drone and AI inspection services can optimize your solar power plant's performance.",
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "inspectionDuration": {
+        "question": "How long does a typical inspection take?",
+        "answer": "The duration depends on the size of your installation. A 10MW plant typically requires 1 day for data collection, with analysis and reporting completed within 3-5 business days."
+      },
+      "shutdown": {
+        "question": "Do you need to shut down the plant during inspection?",
+        "answer": "No, our drone inspections can be performed while your plant remains fully operational, causing zero production downtime."
+      },
+      "faultTypes": {
+        "question": "What types of faults can your technology detect?",
+        "answer": "Our system can identify hotspots, microcracks, soiling, bypass diode failures, cell degradation, PID (potential induced degradation), delamination, and various connection issues."
+      },
+      "accuracy": {
+        "question": "How accurate is your fault detection?",
+        "answer": "Our AI algorithms achieve up to 99.7% accuracy in fault detection, significantly outperforming traditional manual inspection methods."
+      },
+      "reports": {
+        "question": "What information is included in your reports?",
+        "answer": "Our comprehensive reports include precise fault locations, classification by type and severity, thermal and visual imagery evidence, performance impact estimates, and prioritized maintenance recommendations."
+      },
+      "frequency": {
+        "question": "How often should we schedule inspections?",
+        "answer": "We recommend quarterly inspections for optimal performance monitoring, though many clients opt for bi-annual inspections (spring and fall) at minimum. Specific recommendations can be provided based on your installation's characteristics and environmental conditions."
+      }
     }
   }
 } 
